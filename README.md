@@ -113,13 +113,15 @@ POST /validate-token/{token} → Valida token JWT
 - Tokens expiram automaticamente após AUTH_JWT_EXPIRATION_HOURS horas
 - Esse projeto é modular: FastAPI + routers + configuração separada → padrão profissional
 
-## Contato
+---
 
+### Contato
 Desenvolvedor: Leonan Thomaz
 Email: leonan.thomaz@gmail.com
 
-#### Redes Sociais
+---
+
+### Redes Sociais
 
 - LinkedIn: https://www.linkedin.com/in/leonanthomaz
 - GitHub: https://github.com/leonanthomaz
-
