@@ -1,4 +1,4 @@
-# 🛠 Sandbox Token Generator - FastAPI + Redis + JWT
+# 🛠 Gerador de Hash - FastAPI + Redis + JWT
 
 Projeto simples de **geração e validação de tokens JWT** usando **FastAPI** e **Redis**, ideal para iniciantes que querem ver como integrar backend moderno com armazenamento em memória.  
 
