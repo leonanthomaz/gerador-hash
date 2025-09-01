@@ -4,7 +4,7 @@ Projeto simples de **geração e validação de tokens JWT** usando **FastAPI** 
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 ```bash
 projeto/
 ├── app/
@@ -29,11 +29,11 @@ projeto/
 
 ---
 
-## 🚀 Como Rodar
+## Como Rodar
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/sandbox-token.git
+git clone https://github.com/leonanthomaz/sandbox-token.git
 cd sandbox-token
 ```
 
