@@ -12,7 +12,7 @@ projeto/
 │ ├── api/
 │ │ ├── routes/
 │ │ │ ├── init.py # Registra rotas
-│ │ │ └── sandbox_router.py # Router de geração/validação de token
+│ │ │ └── sandbox.py # Router de geração/validação de token
 │ └── configuration/
 │ └── settings.py # Configurações de ambiente e logging
 ├── main.py # Inicializa servidor
@@ -33,8 +33,8 @@ projeto/
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/leonanthomaz/sandbox-token.git
-cd sandbox-token
+git clone https://github.com/leonanthomaz/gerador-hash.git
+cd gerador-hash
 ```
 
 ### 2. Crie e ative o ambiente virtual
