@@ -1,4 +1,4 @@
-# 🛠 Gerador de Hash - FastAPI + Redis + JWT
+# Gerador de Hash - FastAPI + Redis + JWT
 
 Projeto simples de **geração e validação de tokens JWT** usando **FastAPI** e **Redis**, ideal para iniciantes que querem ver como integrar backend moderno com armazenamento em memória.  
 
@@ -20,7 +20,7 @@ projeto/
 ```
 ---
 
-## ⚙️ Tecnologias
+## ⚙Tecnologias
 - **Python 3.9+**  
 - [FastAPI](https://fastapi.tiangolo.com/) → Framework web moderno  
 - [Redis](https://redis.io/) → Armazenamento em memória  
