@@ -37,19 +37,19 @@ git clone https://github.com/seu-usuario/sandbox-token.git
 cd sandbox-token
 ```
 
-2. Crie e ative o ambiente virtual
+### 2. Crie e ative o ambiente virtual
 ```bash
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 ```
 
-3. Instale as dependências
+### 3. Instale as dependências
 ```bash
 pip install fastapi uvicorn python-jose redis python-dotenv
 ```
 
-4. Configure o .env
+### 4. Configure o .env
 Crie um arquivo .env na raiz com as variáveis:
 
 env:
@@ -69,7 +69,7 @@ APP_ENVIRONMENT_DEFAULT=development
 🔹 URLs e ambiente → para CORS e dev/prod
 ```
 
-5. Rode a aplicação
+### 5. Rode a aplicação
 ```bash
 python main.py
 API disponível em:
@@ -85,7 +85,7 @@ POST /generate-token/{project_id} → Gera token JWT para o projeto
 
 ---
 
-# Response
+### Response
 ```bash
 {
   "token": "<token_gerado>",
@@ -96,14 +96,14 @@ POST /validate-token/{token} → Valida token JWT
 
 ---
 
-# Response
+### Response
 ```bash
 {
   "status": "Token Aceito."
 }
 ```
 
-Use Swagger UI para testar interativamente.
+### Use Swagger UI para testar interativamente.
 
 ---
 
@@ -113,9 +113,13 @@ Use Swagger UI para testar interativamente.
 - Tokens expiram automaticamente após AUTH_JWT_EXPIRATION_HOURS horas
 - Esse projeto é modular: FastAPI + routers + configuração separada → padrão profissional
 
-👨‍💻 Autor
-Leonan Thomaz ✌
+## Contato
 
-GitHub
-- LinkedIn
-- Instagram
+Desenvolvedor: Leonan Thomaz
+Email: leonan.thomaz@gmail.com
+
+#### Redes Sociais
+
+- LinkedIn: https://www.linkedin.com/in/leonanthomaz
+- GitHub: https://github.com/leonanthomaz
+
